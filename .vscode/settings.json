@@ -1,0 +1,6 @@
+{
+	"haxe.displayConfigurations": [
+		["completion.hxml", "-lib", "haxeui-blank"]
+	],
+	"liveServer.settings.wait": 500
+}

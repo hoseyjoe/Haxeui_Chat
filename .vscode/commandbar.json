@@ -1,0 +1,34 @@
+{
+	"skipTerminateQuickPick": true,
+	"skipSwitchToOutput": false,
+	"skipErrorMessage": true,
+	"commands": [
+		{
+			"text": "Html5",
+			"color": "black",
+			"commandType":"palette",
+			"command": "workbench.action.tasks.runTask|Html5",
+			"alignment": "left",
+			"skipTerminateQuickPick": false,
+			"priority": -10
+        },
+		{
+			"text": "Heaps",
+			"color": "black",
+			"commandType":"palette",
+			"command": "workbench.action.tasks.runTask|Heaps",
+			"alignment": "left",
+			"skipTerminateQuickPick": false,
+			"priority": -10
+        },
+		{
+			"text": "Raylib",
+			"color": "black",
+			"commandType":"palette",
+			"command": "workbench.action.tasks.runTask|Raylib",
+			"alignment": "left",
+			"skipTerminateQuickPick": false,
+			"priority": -10
+        }
+    ]
+}

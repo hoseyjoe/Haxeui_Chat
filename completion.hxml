@@ -1,0 +1,4 @@
+-cp src
+-main Chatbot
+
+-lib haxeui-core

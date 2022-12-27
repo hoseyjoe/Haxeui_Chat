@@ -1,0 +1,5 @@
+completion.hxml
+-lib haxeui-raylib
+-lib raylib-haxe
+-D toolchain=mingw
+-cpp build/raylib

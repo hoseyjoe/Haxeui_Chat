@@ -1,0 +1,6 @@
+completion.hxml
+-lib haxeui-pdcurses
+
+-D resourcesPath=assets
+
+-cpp build/pdcurses

@@ -1,0 +1,39 @@
+<module id="projectmodule">
+    <resources>
+        <resource path="/locale" prefix="locale" />
+        <resource path="/theme" prefix="theme" />
+        <resource path="/res" prefix="res" />
+        <resource path="/haxe/ui/_module/styles/shared" prefix="" />
+        <!--<resource path="../library" prefix="library" />
+-->
+    </resources>
+    <components>
+        <class name="Question" />
+        <class name="Answer" />
+        <!--<class name="containers.views.Causebox" />-->
+
+
+        <!--<component class="containers.views.Status_renderer" />-->
+    </components>
+    <properties>
+        <!--<property name="haxe.ui.components.scroll.style" value="classic-scrolls" />-->
+
+        <!--<property name="haxe.ui.components.scroll.style" value="autoHideScrollbars" />
+            https://community.haxeui.org/t/new-scrollbar-styles/408
+        -->
+    </properties>
+    <themes>
+        <joedark parent="dark">
+            <style resource="theme/dark.css" />
+        </joedark>
+        <joelight parent="default"> 
+            <style resource="theme/light.css" />
+        </joelight>
+    </themes>
+    <locales path="locale/">
+        <locale id="en" resource="locale/en.properties" />
+        <locale id="pt" resource="locale/pt.properties" />
+        <locale id="es" resource="locale/es.properties" />
+    </locales>
+    
+</module>

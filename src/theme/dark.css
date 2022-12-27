@@ -1,0 +1,172 @@
+/*.hbox,
+.vbox,
+*/
+.splitter {
+    background-color: #252728;
+}
+
+.vertical-splitter-gripper:hover,
+.horizontal-splitter-gripper:hover {
+    background-color: #98a6aa;
+}
+
+.listview .itemrenderer:selected {
+    background-color: #3D4041;
+}
+
+.listview .itemrenderer .box {
+    background-color: none;
+}
+
+.menuitem:hover,
+.menuitem:selected {
+    background-color: white;
+}
+
+.causebox {
+    border-radius: 5px;
+    background: #98a6aa;
+    padding: 4px;
+}
+
+.evidence, .solution, .note {
+    margin: 2 4;
+}
+
+.scrollview {
+    // mode: mobile;
+}
+
+.myvbox {
+    // background-color:grey;
+    //border: 3px solid blue;
+}
+
+.myvbox .vbox {
+    // background-color:grey;
+}
+
+.myvbox>.component {
+    padding-left: 10;
+    padding-right: 10;
+}
+
+.vertical-scroll,
+.horizontal-scroll {
+    background-color: #8b9499;
+}
+
+.sectionLabel {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.sectionLabel .button {
+    color: #A6B4B4;
+    padding-left: 0;
+
+    //text-align: left;
+}
+
+.sectionLabel .button icon {
+    left: 5;
+}
+
+.sectionLabel .dropdown {
+    icon: "";
+}
+
+#reduce {
+    color:grey;
+    icon: "down-arrow-square-dark.png";
+}
+
+#reduce.collapsed {
+    icon: "right-arrow-square-dark.png";
+}
+
+.accordionsinglechild {
+    padding-left: 10px;
+}
+
+#fileSection {
+    width: 100%;
+    padding: 10 1 1 5;
+    border: 1 solid #252728;
+}
+
+#home_view,
+.report_widget {
+    background-color: #3D4041;
+
+}
+
+#home_view {
+    width: 100%;
+    height: 100%;
+    spacing: 10px;
+    padding: 10px;
+}
+
+#options,
+#fileSection,
+.menuitem:hover {
+    background-color: #3D4041;
+}
+
+#nextPrevious {
+    background-color: #252728;
+}
+
+#widget_menu_btn {
+    //background-color: #2A2C2D
+}
+
+.reports {
+    spacing: 0;
+    border: 1px solid #8b9499;
+    padding: 2px
+}
+
+#main-view {
+    background-color: #252728;
+}
+
+.causedby_line {
+    width: 60px;
+    height: 1px;
+    background-color: grey;
+}
+
+.caused, .by {
+    color:grey;
+}
+
+
+#cb_item_menu button {
+    padding: 2px 4px;
+}
+
+#causeInFocus,
+#pparent,
+#causeChildren {
+    max-height: 100%;
+    margin: 0;
+    padding: 0;
+    spacing: 0;
+    border: none;
+    background-opacity: 0;
+}
+
+
+.causebox #cb_item_menu button {
+    padding: 2;
+    margin: 0;
+    width: 20px;
+    height: 20px;
+}
+.acc_icon{
+    padding: 2;
+    margin: 0;
+    padding-left:15;
+}

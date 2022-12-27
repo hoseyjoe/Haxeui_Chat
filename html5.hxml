@@ -1,0 +1,6 @@
+completion.hxml
+-lib haxeui-html5
+
+-js build/html5/Main.js
+--debug
+--dce full

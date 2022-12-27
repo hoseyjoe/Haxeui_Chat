@@ -1,0 +1,9 @@
+<vbox horizontalAlign="right">
+    <style>
+        #answer:hover{
+            background-color:#CCD9EE
+        }
+    </style>
+    <button id="answer" text="hello" style="border-radius:5; border-size:2px; border-color:#1C63B8;"></button>
+    <label id="sending" hidden="true" text="Sending..." horizontalAlign="right" style="font-size:8px"></label>
+</vbox>

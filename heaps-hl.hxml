@@ -1,0 +1,9 @@
+completion.hxml
+-lib heaps
+-lib hlsdl
+-lib haxeui-heaps
+-lib hide
+
+-D resourcesPath=assets
+
+-hl build/heaps/hl/Main.hl

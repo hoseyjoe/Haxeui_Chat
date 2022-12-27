@@ -1,0 +1,30 @@
+{
+	"version": "2.0.0",
+	"command": "haxe",
+	"problemMatcher": "$haxe",
+	"tasks": [
+		{
+			"label": "Html5",
+			"suppressTaskName": true,
+			"args": [ "html5.hxml"]
+		},
+		{
+			"label": "Html5 (debug)",
+			"suppressTaskName": true,
+			"args": ["-debug", "html5.hxml"],
+			"isBuildCommand": true
+		},
+		{
+			"label": "Heaps",
+			"suppressTaskName": true,
+			"args": ["-debug", "heaps-hl.hxml"],
+			"isBuildCommand": true
+		},
+		{
+			"label": "Raylib",
+			"suppressTaskName": true,
+			"args": ["-debug", "raylib.hxml"],
+			"isBuildCommand": true
+		}
+	]
+}

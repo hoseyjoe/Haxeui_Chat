@@ -1,0 +1,29 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Html5",
+			"type": "chrome",
+			"request": "launch",
+			"file": "${workspaceRoot}/build/html5/index.html",
+			"webRoot": "${workspaceRoot}/build/html5/",
+			"preLaunchTask": "Html5 (debug)"
+		},
+		{
+            "name": "Heaps",
+            "request": "launch",
+            "type": "hl",
+			"hl": "C:\\SDKs\\hashlink\\hl.exe",
+            "program": "${workspaceFolder}/build/heaps/hl/Main.hl",
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "Heaps"
+        },
+		{
+			"name": "Raylib",
+			"type": "hxcpp",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/raylib/Main-debug.exe",
+            "preLaunchTask": "Raylib"
+		}
+	]
+}
