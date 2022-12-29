@@ -1,5 +1,5 @@
 <hbox width="100%">
-    <image id="theIcon" resource="haxeui-core/styles/default/haxeui_small.png"/>
+    <image id="theIcon" resource="haxeui-core/styles/default/haxeui_tiny.png"/>
     <hbox id="balls">
         <style>
             @keyframes bouncey {

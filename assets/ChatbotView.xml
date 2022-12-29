@@ -3,7 +3,7 @@
 
     </style>
     <hbox width="100%" id="header" style="padding:5 10 10 5; border-top-left-radius:10px; border-top-right-radius:10px; background: #3870E0; ">
-        <image id="theIcon" resource="haxeui-core/styles/default/haxeui_small.png"/>
+        <image id="theIcon" resource="haxeui-core/styles/default/haxeui_tiny.png"/>
         <label width="100%" verticalAlign="center" text="HoseyJoe" style="color:white;"/>
         <button text="X" id="XXX" verticalAlign="center" style="padding:0;background-opacity:0; border:none;color:white;"/>
     </hbox>
