@@ -1,6 +1,4 @@
 {
-	"haxe.displayConfigurations": [
-		["completion.hxml", "-lib", "haxeui-blank"]
-	],
-	"liveServer.settings.wait": 500
+    "liveServer.settings.wait": 500,
+    "liveServer.settings.root": "build/html5"
 }

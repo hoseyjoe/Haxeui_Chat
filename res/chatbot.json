@@ -1,45 +1,53 @@
 {
-    "text": [
+    "questiontext": [
         "Welcome to HoseyJoe website!",
         "If you have any Questions about HoseyJoe, I can help you find answers here.",
         "If you would like to enter a LIVE chat with one of our representatives, just let me know"
     ],
     "buttons": [
         {
-            "text": "Yes, I prefer a LIVE chat",
+            "buttontext": "Yes, I prefer a LIVE chat",
             "comment": {
-                "text": [
+                "questiontext": [
                     "I got nothing!",
                     "Leave me"
                 ],
                 "qid": "live chat",
                 "buttons": [
                     {
-                        "text": "I'm outa here",
+                        "buttontext": "I'm outa here",
                         "comment": {
-                            "text": [
+                            "questiontext": [
                                 "Holy Mackerel I didn't think that would work"
                             ],
                             "buttons": [
                                 {
-                                    "text": "Die Pig Man",
+                                    "buttontext": "Launch Google",
                                     "link": "https://google.com"
                                 },
                                 {
-                                    "text": "I fart in your general direction",
+                                    "buttontext": "I fart in your general direction",
                                     "link": "live chat"
                                 }
                             ]
                         }
                     },
                     {
-                        "text": "Please, byte me!"
+                        "buttontext": "Please, byte me!"
                     }
                 ]
             }
         },
         {
-            "text": "No, LIVE chat is not necessary at this time"
+            "buttontext": "No, LIVE chat is not necessary at this time"
+        },
+        {
+            "buttontext": "You had something else in mind?",
+            "questionfield": "Enter text",
+            "questionsend":"#send",
+            "comment":{
+                "questiontext": ["Thank you will get back to you!"]
+            }
         }
     ]
 }

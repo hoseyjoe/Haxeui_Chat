@@ -1,0 +1,48 @@
+<hbox width="100%">
+    <image id="theIcon" resource="haxeui-core/styles/default/haxeui_small.png"/>
+    <hbox id="balls">
+        <style>
+            @keyframes bouncey {
+                0% {
+                    top:0
+                }
+                25% {
+                    top:8px;
+                }
+                50% {
+                    top:0px;
+                }
+                75% {
+                    top:8px;
+                }
+                100% {
+                    top:0px;
+                }
+            }
+            
+            .bally{
+                background-color: #ED49FE;
+                border-radius:5;
+                width: 10px;
+                height: 10px;                
+            }
+            .ani1{
+                animation: bouncey 1s linear 0s 2;
+            }
+            .ani2{
+                animation: bouncey 1s linear 0.1s 2;
+            }
+            .ani3{
+                animation: bouncey 1s linear 0.2s 2;
+            }
+           
+            
+        </style>
+        <box styleName="bally ani1"></box>
+        <box styleName="bally ani2"></box>
+        <box styleName="bally ani3"></box>
+    </hbox>
+    
+    <label id="question" width="100%" text="" style="background-color: #D7E2F9; border-radius:5px;padding:5" hidden="true" />
+       
+</hbox>
